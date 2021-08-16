@@ -27,12 +27,12 @@ ul {
 
 .footer {
     background-color: rgb(129, 15, 15);
-    padding: 70px 0;
+    padding: 90px;
 }
 
 .col {
     width: 25%;
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 .col h2 {
@@ -89,4 +89,18 @@ ul {
 .col .social-media ul li a:hover {
     color: red;
     background-color: #ffffff;
+}
+
+/* RESPONSIVE */
+@media(max-width: 767px) {
+    .col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .col {
+        width: 100%;
+    } 
 }
