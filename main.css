@@ -74,6 +74,19 @@ ul {
     padding-left: 8px;
 }
 
-.col .social-media a {
-    
+.col .social-media ul li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(231, 191, 9);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.col .social-media ul li a:hover {
+    color: red;
+    background-color: #ffffff;
 }
