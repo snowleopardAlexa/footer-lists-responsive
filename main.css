@@ -11,7 +11,7 @@ font-family: 'Raleway', sans-serif;
 
 .container {
     max-width: 1170px;
-    background-color: rgb(97, 1, 1);
+    background-color: rgb(129, 15, 15);
     margin: auto;
     color: #fff;
 }
@@ -26,9 +26,8 @@ ul {
 }
 
 .footer {
-    background-color: rgb(97, 1, 1);
+    background-color: rgb(129, 15, 15);
     padding: 70px 0;
-
 }
 
 .col {
@@ -40,4 +39,37 @@ ul {
     font-size: 1.1rem;
     text-transform: uppercase;
     margin-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+}
+
+.col h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(231, 191, 9);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.col ul li a {
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
 }
