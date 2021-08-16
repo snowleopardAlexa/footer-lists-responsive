@@ -70,6 +70,10 @@ ul {
 }
 
 .col ul li a:hover {
-    color: #ffffff;
+    color: rgb(231, 191, 9);
     padding-left: 8px;
+}
+
+.col .social-media a {
+    
 }
